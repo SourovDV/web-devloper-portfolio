@@ -105,15 +105,24 @@ nav a {
 
 }
 
+.main-container section{
+    margin-top: 130px;
+}
+
+.main-container {
+    max-width: 80%;
+    margin: 0px auto;
+}
+
 .section-description {
-    color:  #757575;
+    color: #757575;
     text-align: center;
-    
+
     font-size: 18px;
-  
+
     font-weight: 400;
-    line-height: 30px; 
-    
+    line-height: 30px;
+
 }
 
 /* about section style */
@@ -121,8 +130,36 @@ nav a {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin:130px 0px;
+    margin: 130px 0px;
     min-width: 300px;
 
 
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+#sourov {
+    padding: 30px 150px;
+}
+
+.skill-container {
+    display: flex;
+    gap:30px
+    
+    
+}
+
+.skill{
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.resume-container{
+    display: flex;
 }
